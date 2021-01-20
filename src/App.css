@@ -6,18 +6,99 @@ html,
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans serif;
-}
-
-.track{
-  width: 300px;
-  height: 300px;
-}
-img{
-  width: 100%;
-  height: 100%;
+  font-family: Helvetica;
 }
 .wrapper{
   width: 100%;
-  background-color: aqua;
+  background: black;
+  color: white;
+  padding-top: 160px;
+  padding-bottom: 30px;
+}
+.name{
+  width: 95%;
+  margin-left: 5%;
+  color: purple;
+  font-size: 13px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.span-1{
+  filter: brightness(400%);
+}
+.span-2{
+  filter: brightness(150%);
+}
+.span-3{
+  filter: brightness(100%);
+}
+.about{
+  font-size: 25px;
+  text-align: left;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.more-about{
+  margin-top: 20px;
+  font-size: 13.5px;
+  letter-spacing: 1.3px;
+  opacity: 0.6;
+  width: 90%;
+  margin-left: 5%;
+  font-weight: lighter;
+}
+.form{
+  margin-top: 40px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: black;
+  border: 1.5px solid rgb(82, 81, 81);
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+.label{
+  display: block;
+  width: 100%;
+  background: rgb(44, 44, 44);
+  color: rgb(170, 167, 167);
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.select{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: 50px;
+  margin-top: 8px;
+  border-radius: 5px;
+  background: rgb(146, 6, 146);
+  color: black;
+  font-size: 17px;
+}
+.input{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: 50px;
+  margin-top: 8px;
+  border-radius: 5px;
+  background: rgb(146, 6, 146);
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
+.button{
+  width: 30%;
+  margin-left: 2.5%;
+  margin-top: 10px;
+  height: 25px;
+  background: linear-gradient(rgb(247, 105, 247), purple);
+  filter: brightness(200%);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 15px;
 }
